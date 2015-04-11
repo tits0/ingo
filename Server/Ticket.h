@@ -9,7 +9,7 @@ private:
 
 public:
     static const int SROWS=3;
-    static const int SCOLS=9;
+    static const int SCOLS=10;
     char m_matrix[SROWS][SCOLS];
     Ticket();
     ~Ticket();

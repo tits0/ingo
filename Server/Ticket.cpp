@@ -40,7 +40,7 @@ void getMatrix(std::vector<Ticket> & tickets)
         for(int row=0; row < Ticket.SROWS; ++row) {
             std::memset( tickets[matrixIndex].m_matrix[row], Ticket.SCOLS, 0);
             for(int icols=0;icols<MAX_ENTRIES;++icols) {
-                tickets[matrixIndex].m_matrix[row][row1[icols]]= cols[row1[icols]][]
+                tickets[matrixIndex].m_matrix[row][row1[icols]]= cols[row1[icols]][smatrixIndex%10]
             }
         }
     }
